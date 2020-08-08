@@ -39,9 +39,9 @@ for i in range(len):
     mail.Recipients.Add(sheet.cell_value(i,0)) 
 
 
-#mail.Save()
+mail.Save()
 mail.Display()
-#mail.Send()
+mail.Send()
 
 subprocess.call(["C:/Program Files (x86)/Microsoft Office/root/Office16/OUTLOOK.EXE"])
 
