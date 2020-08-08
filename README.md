@@ -13,6 +13,6 @@ The Script currently works only if run manually. It can be made to run at set ti
 - Create a .bat file in the current workind directory and edit it by giving the path of python executable and path to the seatBook.py 
     Should look something like this :
     #
-    "C:\Users\User\AppData\Local\Programs\Python\Python38-32\python.exe" "C:\Users\User\'path to seatBook.py'"
+    "C:\Users\User\AppData\Local\Programs\Python\Python38-32\python.exe" "C:\Users\User\ 'path to seatBook.py'"
     exit 0
 - Open task scheduler and create a task. The location of the .bat file should be given under "actions" tab. Give the desired time under "Triggers"

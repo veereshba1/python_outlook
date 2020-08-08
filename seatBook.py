@@ -6,7 +6,6 @@ import time
 import xlrd
 
 sheetLocation = os.path.abspath(os.getcwd()+"\seat.xlsx")
-print(sheetLocation)
 
 #Open Workbook 
 wb = xlrd.open_workbook(sheetLocation) 
