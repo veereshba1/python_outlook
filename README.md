@@ -6,6 +6,7 @@
 -   pip install time
 -   pip install xlrd
 
+Python script to automate meeting schedules in outlook, wherein it sends mail to the recipients configured in excel automatically at the set time
 The Script currently works only if run manually. It can be made to run at set time by creating a .bat 🦇 file and creating a new Task scheduler.
 
 ## Creation of .bat file and Task Scheduler
